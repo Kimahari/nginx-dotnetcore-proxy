@@ -1,2 +1,2 @@
-FROM nginx:1 as base
+FROM nginx:stable as base
 COPY . /etc/nginx
