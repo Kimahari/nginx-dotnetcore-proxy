@@ -1,2 +1,2 @@
-FROM nginx:1.26.2 as base
+FROM nginx:1.29.1 as base
 COPY . /etc/nginx
